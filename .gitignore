@@ -1,9 +1,11 @@
-# 环境变量（含密钥）
+# Environment variables (contains API key)
 .env
 
-# 测试报告
+# Test reports
 reports/
 *.html
+
+# pytest cache
 .pytest_cache/
 
 # Python
@@ -11,3 +13,8 @@ __pycache__/
 *.py[cod]
 venv/
 .venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
