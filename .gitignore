@@ -1,0 +1,13 @@
+# 环境变量（含密钥）
+.env
+
+# 测试报告
+reports/
+*.html
+.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
